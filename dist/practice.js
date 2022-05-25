@@ -1,3 +1,3 @@
 "use strict";
-const message = 'hello world';
-console.log(message);
+const message2 = 'hello world';
+console.log(message2);
