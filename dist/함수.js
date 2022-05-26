@@ -1,12 +1,12 @@
 "use strict";
 // 함수
-function hello(name) {
+function hello3(name) {
     return `Hello, ${name || "world"}`;
 }
 function hello2(name = "world") {
     return `Hello, ${name}`;
 }
-const result = hello();
+const result = hello3();
 const result2 = hello("sam");
 function hello(name, age) {
     // name 앞에 age가 오면안된다.

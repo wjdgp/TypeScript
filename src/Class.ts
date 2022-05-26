@@ -12,7 +12,7 @@
 // }
 
 // 올바른 예시
-class Person {
+class Person9 {
   // 클래스 프로퍼티를 사전 선언하여야 한다.
   name: string;
 
@@ -27,5 +27,5 @@ class Person {
   }
 }
 
-const person3 = new Person('Lee');
+const person3 = new Person9('Lee');
 person3.walk(); // Lee is walking

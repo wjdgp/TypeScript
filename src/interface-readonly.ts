@@ -1,6 +1,6 @@
 type Score = 'A' | 'B' | 'C' | 'D';
 
-interface User {
+interface User9 {
   name: string;
   age: number;
   gender?: string;
@@ -12,7 +12,7 @@ interface User {
   // type Score 이렇게 타입을 정해주고 이걸 적어주면 거기 안에서만 선택 가능
 }
 
-let user: User = {
+let user: User9 = {
   name: 'xx',
   age: 30,
   birthYear: 2000

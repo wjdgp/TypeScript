@@ -1,6 +1,6 @@
 // 함수
 
-function hello(name?: string) {
+function hello3(name?: string) {
   return `Hello, ${name || "world"}`;
 }
 
@@ -8,7 +8,7 @@ function hello2(name = "world") {
   return `Hello, ${name}`;
 }
 
-const result = hello();
+const result = hello3();
 const result2 = hello("sam");
 
 function hello(name: string, age?: number): string {
@@ -56,7 +56,7 @@ a6();
 // 전달받은 매개변수에 갯수나 타입에 따라 다른 동작을 하게하는 것
 interface User {
   name: string;
-  age: number;
+  age?: number;
 }
 
 function join(name: string, age: string): string;

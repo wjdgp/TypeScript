@@ -10,7 +10,7 @@
 //   }
 // }
 // 올바른 예시
-class Person {
+class Person9 {
     constructor(name) {
         // 클래스 프로퍼티수에 값을 할당
         this.name = name;
@@ -19,5 +19,5 @@ class Person {
         console.log(`${this.name} is walking`);
     }
 }
-const person3 = new Person('Lee');
+const person3 = new Person9('Lee');
 person3.walk(); // Lee is walking
